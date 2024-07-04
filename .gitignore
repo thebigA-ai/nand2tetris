@@ -1,3 +1,14 @@
-.tst
-.out
-.cmp
+# Ignore all .tst files
+*.tst
+
+# Ignore all .cmp files
+*.cmp
+
+# Ignore all .out files
+*.out
+
+# Ignore all other files except .hdl
+*.*
+
+# Do not ignore .hdl files
+!*.hdl
